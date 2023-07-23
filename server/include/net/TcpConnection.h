@@ -11,7 +11,7 @@ using std::shared_ptr;
 using std::string;
 using std::function;
 
-namespace wd
+namespace KONGKONG
 {
     class EventLoop;
     class TcpConnection;
