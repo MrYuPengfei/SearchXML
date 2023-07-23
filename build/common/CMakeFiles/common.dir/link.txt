@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC -g -shared -Wl,-soname,libcommon.so -o libcommon.so CMakeFiles/common.dir/source/Configuration.cpp.o CMakeFiles/common.dir/source/WebPage.cpp.o 

@@ -1,0 +1,131 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "3rd/libtinyxml2.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"3rd/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "tinyxml2_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/home/yupengfei/YuPengFei_v4/3rd/cppjieba"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/yupengfei/YuPengFei_v4/3rd/cppjieba/limonp"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/yupengfei/YuPengFei_v4/3rd/jsoncpp/json"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/yupengfei/YuPengFei_v4/3rd/tinyxml2/tinyxml2"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "tinyxml2::@c4864f3b3257843ea81b",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "tinyxml2",
+	"nameOnDisk" : "libtinyxml2.so",
+	"paths" : 
+	{
+		"build" : "3rd",
+		"source" : "3rd"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3rd/tinyxml2/tinyxml2.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

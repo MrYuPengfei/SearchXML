@@ -1,0 +1,12 @@
+project(prepare)
+aux_source_directory(source DIR_SRCS)
+
+include_directories( ${PROJECT_SOURCE_DIR}/include)
+include_directories( ${PROJECT_SOURCE_DIR}/../3rd)
+include_directories( ${PROJECT_SOURCE_DIR}/../3rd/tinyxml2/tinyxml2)
+include_directories( ${PROJECT_SOURCE_DIR}/../common/include)
+# include_directories(include ${PROJECT_BINARY_DIR}/3rd ${PROJECT_BINARY_DIR}/common/include  ${PROJECT_BINARY_DIR}/3rd/tinyxml2 )
+# message(${PROJECT_BINARY_DIR}/common/include)
+add_executable(prepare ${DIR_SRCS})
+# message(${PROJECT_BINARY_DIR}/../common/libcommon.so)
+target_link_libraries(prepare  ${PROJECT_BINARY_DIR}/../common/libcommon.so ${PROJECT_BINARY_DIR}/../3rd/libjsoncpp.so ${PROJECT_BINARY_DIR}/../3rd/libtinyxml2.so)

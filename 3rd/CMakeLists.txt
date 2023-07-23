@@ -1,0 +1,5 @@
+include_directories(cppjieba cppjieba/limonp)
+include_directories(jsoncpp/json)
+include_directories(tinyxml2/tinyxml2)
+add_library(jsoncpp SHARED jsoncpp/jsoncpp.cpp)
+add_library(tinyxml2 SHARED tinyxml2/tinyxml2.cpp)
