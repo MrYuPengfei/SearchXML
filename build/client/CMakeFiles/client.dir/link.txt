@@ -1,1 +1,1 @@
-/usr/bin/g++ -g CMakeFiles/client.dir/source/client.cpp.o -o client  -Wl,-rpath,/home/yupengfei/YuPengFei_v4/build/client/../common:/home/yupengfei/YuPengFei_v4/build/client/../3rd ../common/libcommon.so ../3rd/libjsoncpp.so 
+/usr/bin/c++ -Wall  -O0 -Wall -g2 -ggdb CMakeFiles/client.dir/source/client.cpp.o -o client   -L/home/yupengfei/YuPengFei_v5/build/client/../common  -L/home/yupengfei/YuPengFei_v5/build/client/../3rd  -Wl,-rpath,/home/yupengfei/YuPengFei_v5/build/client/../common:/home/yupengfei/YuPengFei_v5/build/client/../3rd -lcommon -ljsoncpp 

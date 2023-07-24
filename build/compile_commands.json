@@ -1,112 +1,117 @@
 [
 {
-  "directory": "/home/yupengfei/YuPengFei_v4/build/3rd",
-  "command": "/usr/bin/g++ -Djsoncpp_EXPORTS -I/home/yupengfei/YuPengFei_v4/3rd/cppjieba -I/home/yupengfei/YuPengFei_v4/3rd/cppjieba/limonp -I/home/yupengfei/YuPengFei_v4/3rd/jsoncpp/json -I/home/yupengfei/YuPengFei_v4/3rd/tinyxml2/tinyxml2 -g -fPIC -o CMakeFiles/jsoncpp.dir/jsoncpp/jsoncpp.cpp.o -c /home/yupengfei/YuPengFei_v4/3rd/jsoncpp/jsoncpp.cpp",
-  "file": "/home/yupengfei/YuPengFei_v4/3rd/jsoncpp/jsoncpp.cpp"
+  "directory": "/home/yupengfei/YuPengFei_v5/build/3rd",
+  "command": "/usr/bin/c++ -Djsoncpp_EXPORTS -I/home/yupengfei/YuPengFei_v5/3rd/cppjieba -I/home/yupengfei/YuPengFei_v5/3rd/cppjieba/limonp -I/home/yupengfei/YuPengFei_v5/3rd/jsoncpp/json -I/home/yupengfei/YuPengFei_v5/3rd/tinyxml2/tinyxml2 -Wall  -O0 -Wall -g2 -ggdb -fPIC -o CMakeFiles/jsoncpp.dir/jsoncpp/jsoncpp.cpp.o -c /home/yupengfei/YuPengFei_v5/3rd/jsoncpp/jsoncpp.cpp",
+  "file": "/home/yupengfei/YuPengFei_v5/3rd/jsoncpp/jsoncpp.cpp"
 },
 {
-  "directory": "/home/yupengfei/YuPengFei_v4/build/3rd",
-  "command": "/usr/bin/g++ -Dtinyxml2_EXPORTS -I/home/yupengfei/YuPengFei_v4/3rd/cppjieba -I/home/yupengfei/YuPengFei_v4/3rd/cppjieba/limonp -I/home/yupengfei/YuPengFei_v4/3rd/jsoncpp/json -I/home/yupengfei/YuPengFei_v4/3rd/tinyxml2/tinyxml2 -g -fPIC -o CMakeFiles/tinyxml2.dir/tinyxml2/tinyxml2.cpp.o -c /home/yupengfei/YuPengFei_v4/3rd/tinyxml2/tinyxml2.cpp",
-  "file": "/home/yupengfei/YuPengFei_v4/3rd/tinyxml2/tinyxml2.cpp"
+  "directory": "/home/yupengfei/YuPengFei_v5/build/3rd",
+  "command": "/usr/bin/c++ -Dtinyxml2_EXPORTS -I/home/yupengfei/YuPengFei_v5/3rd/cppjieba -I/home/yupengfei/YuPengFei_v5/3rd/cppjieba/limonp -I/home/yupengfei/YuPengFei_v5/3rd/jsoncpp/json -I/home/yupengfei/YuPengFei_v5/3rd/tinyxml2/tinyxml2 -Wall  -O0 -Wall -g2 -ggdb -fPIC -o CMakeFiles/tinyxml2.dir/tinyxml2/tinyxml2.cpp.o -c /home/yupengfei/YuPengFei_v5/3rd/tinyxml2/tinyxml2.cpp",
+  "file": "/home/yupengfei/YuPengFei_v5/3rd/tinyxml2/tinyxml2.cpp"
 },
 {
-  "directory": "/home/yupengfei/YuPengFei_v4/build/common",
-  "command": "/usr/bin/g++ -Dcommon_EXPORTS -I/home/yupengfei/YuPengFei_v4/common/include -I/home/yupengfei/YuPengFei_v4/common/../3rd -g -fPIC -o CMakeFiles/common.dir/source/Configuration.cpp.o -c /home/yupengfei/YuPengFei_v4/common/source/Configuration.cpp",
-  "file": "/home/yupengfei/YuPengFei_v4/common/source/Configuration.cpp"
+  "directory": "/home/yupengfei/YuPengFei_v5/build/common",
+  "command": "/usr/bin/c++ -Dcommon_EXPORTS -I/home/yupengfei/YuPengFei_v5/common/include -I/home/yupengfei/YuPengFei_v5/common/../3rd -Wall  -O0 -Wall -g2 -ggdb -fPIC -o CMakeFiles/common.dir/source/Configuration.cpp.o -c /home/yupengfei/YuPengFei_v5/common/source/Configuration.cpp",
+  "file": "/home/yupengfei/YuPengFei_v5/common/source/Configuration.cpp"
 },
 {
-  "directory": "/home/yupengfei/YuPengFei_v4/build/common",
-  "command": "/usr/bin/g++ -Dcommon_EXPORTS -I/home/yupengfei/YuPengFei_v4/common/include -I/home/yupengfei/YuPengFei_v4/common/../3rd -g -fPIC -o CMakeFiles/common.dir/source/WebPage.cpp.o -c /home/yupengfei/YuPengFei_v4/common/source/WebPage.cpp",
-  "file": "/home/yupengfei/YuPengFei_v4/common/source/WebPage.cpp"
+  "directory": "/home/yupengfei/YuPengFei_v5/build/common",
+  "command": "/usr/bin/c++ -Dcommon_EXPORTS -I/home/yupengfei/YuPengFei_v5/common/include -I/home/yupengfei/YuPengFei_v5/common/../3rd -Wall  -O0 -Wall -g2 -ggdb -fPIC -o CMakeFiles/common.dir/source/UnicodeToUTF8.cpp.o -c /home/yupengfei/YuPengFei_v5/common/source/UnicodeToUTF8.cpp",
+  "file": "/home/yupengfei/YuPengFei_v5/common/source/UnicodeToUTF8.cpp"
 },
 {
-  "directory": "/home/yupengfei/YuPengFei_v4/build/prepare",
-  "command": "/usr/bin/g++  -I/home/yupengfei/YuPengFei_v4/prepare/include -I/home/yupengfei/YuPengFei_v4/prepare/../3rd -I/home/yupengfei/YuPengFei_v4/prepare/../3rd/tinyxml2/tinyxml2 -I/home/yupengfei/YuPengFei_v4/prepare/../common/include -g -o CMakeFiles/prepare.dir/source/DirScanner.cpp.o -c /home/yupengfei/YuPengFei_v4/prepare/source/DirScanner.cpp",
-  "file": "/home/yupengfei/YuPengFei_v4/prepare/source/DirScanner.cpp"
+  "directory": "/home/yupengfei/YuPengFei_v5/build/common",
+  "command": "/usr/bin/c++ -Dcommon_EXPORTS -I/home/yupengfei/YuPengFei_v5/common/include -I/home/yupengfei/YuPengFei_v5/common/../3rd -Wall  -O0 -Wall -g2 -ggdb -fPIC -o CMakeFiles/common.dir/source/WebPage.cpp.o -c /home/yupengfei/YuPengFei_v5/common/source/WebPage.cpp",
+  "file": "/home/yupengfei/YuPengFei_v5/common/source/WebPage.cpp"
 },
 {
-  "directory": "/home/yupengfei/YuPengFei_v4/build/prepare",
-  "command": "/usr/bin/g++  -I/home/yupengfei/YuPengFei_v4/prepare/include -I/home/yupengfei/YuPengFei_v4/prepare/../3rd -I/home/yupengfei/YuPengFei_v4/prepare/../3rd/tinyxml2/tinyxml2 -I/home/yupengfei/YuPengFei_v4/prepare/../common/include -g -o CMakeFiles/prepare.dir/source/PageLib.cpp.o -c /home/yupengfei/YuPengFei_v4/prepare/source/PageLib.cpp",
-  "file": "/home/yupengfei/YuPengFei_v4/prepare/source/PageLib.cpp"
+  "directory": "/home/yupengfei/YuPengFei_v5/build/prepare",
+  "command": "/usr/bin/c++  -I/home/yupengfei/YuPengFei_v5/prepare/include -I/home/yupengfei/YuPengFei_v5/prepare/../3rd -I/home/yupengfei/YuPengFei_v5/prepare/../3rd/tinyxml2/tinyxml2 -I/home/yupengfei/YuPengFei_v5/prepare/../common/include -Wall  -O0 -Wall -g2 -ggdb -o CMakeFiles/prepare.dir/source/DirScanner.cpp.o -c /home/yupengfei/YuPengFei_v5/prepare/source/DirScanner.cpp",
+  "file": "/home/yupengfei/YuPengFei_v5/prepare/source/DirScanner.cpp"
 },
 {
-  "directory": "/home/yupengfei/YuPengFei_v4/build/prepare",
-  "command": "/usr/bin/g++  -I/home/yupengfei/YuPengFei_v4/prepare/include -I/home/yupengfei/YuPengFei_v4/prepare/../3rd -I/home/yupengfei/YuPengFei_v4/prepare/../3rd/tinyxml2/tinyxml2 -I/home/yupengfei/YuPengFei_v4/prepare/../common/include -g -o CMakeFiles/prepare.dir/source/RssReader.cpp.o -c /home/yupengfei/YuPengFei_v4/prepare/source/RssReader.cpp",
-  "file": "/home/yupengfei/YuPengFei_v4/prepare/source/RssReader.cpp"
+  "directory": "/home/yupengfei/YuPengFei_v5/build/prepare",
+  "command": "/usr/bin/c++  -I/home/yupengfei/YuPengFei_v5/prepare/include -I/home/yupengfei/YuPengFei_v5/prepare/../3rd -I/home/yupengfei/YuPengFei_v5/prepare/../3rd/tinyxml2/tinyxml2 -I/home/yupengfei/YuPengFei_v5/prepare/../common/include -Wall  -O0 -Wall -g2 -ggdb -o CMakeFiles/prepare.dir/source/PageLib.cpp.o -c /home/yupengfei/YuPengFei_v5/prepare/source/PageLib.cpp",
+  "file": "/home/yupengfei/YuPengFei_v5/prepare/source/PageLib.cpp"
 },
 {
-  "directory": "/home/yupengfei/YuPengFei_v4/build/prepare",
-  "command": "/usr/bin/g++  -I/home/yupengfei/YuPengFei_v4/prepare/include -I/home/yupengfei/YuPengFei_v4/prepare/../3rd -I/home/yupengfei/YuPengFei_v4/prepare/../3rd/tinyxml2/tinyxml2 -I/home/yupengfei/YuPengFei_v4/prepare/../common/include -g -o CMakeFiles/prepare.dir/source/WebPageLib.cpp.o -c /home/yupengfei/YuPengFei_v4/prepare/source/WebPageLib.cpp",
-  "file": "/home/yupengfei/YuPengFei_v4/prepare/source/WebPageLib.cpp"
+  "directory": "/home/yupengfei/YuPengFei_v5/build/prepare",
+  "command": "/usr/bin/c++  -I/home/yupengfei/YuPengFei_v5/prepare/include -I/home/yupengfei/YuPengFei_v5/prepare/../3rd -I/home/yupengfei/YuPengFei_v5/prepare/../3rd/tinyxml2/tinyxml2 -I/home/yupengfei/YuPengFei_v5/prepare/../common/include -Wall  -O0 -Wall -g2 -ggdb -o CMakeFiles/prepare.dir/source/RssReader.cpp.o -c /home/yupengfei/YuPengFei_v5/prepare/source/RssReader.cpp",
+  "file": "/home/yupengfei/YuPengFei_v5/prepare/source/RssReader.cpp"
 },
 {
-  "directory": "/home/yupengfei/YuPengFei_v4/build/prepare",
-  "command": "/usr/bin/g++  -I/home/yupengfei/YuPengFei_v4/prepare/include -I/home/yupengfei/YuPengFei_v4/prepare/../3rd -I/home/yupengfei/YuPengFei_v4/prepare/../3rd/tinyxml2/tinyxml2 -I/home/yupengfei/YuPengFei_v4/prepare/../common/include -g -o CMakeFiles/prepare.dir/source/main.cpp.o -c /home/yupengfei/YuPengFei_v4/prepare/source/main.cpp",
-  "file": "/home/yupengfei/YuPengFei_v4/prepare/source/main.cpp"
+  "directory": "/home/yupengfei/YuPengFei_v5/build/prepare",
+  "command": "/usr/bin/c++  -I/home/yupengfei/YuPengFei_v5/prepare/include -I/home/yupengfei/YuPengFei_v5/prepare/../3rd -I/home/yupengfei/YuPengFei_v5/prepare/../3rd/tinyxml2/tinyxml2 -I/home/yupengfei/YuPengFei_v5/prepare/../common/include -Wall  -O0 -Wall -g2 -ggdb -o CMakeFiles/prepare.dir/source/WebPageLib.cpp.o -c /home/yupengfei/YuPengFei_v5/prepare/source/WebPageLib.cpp",
+  "file": "/home/yupengfei/YuPengFei_v5/prepare/source/WebPageLib.cpp"
 },
 {
-  "directory": "/home/yupengfei/YuPengFei_v4/build/server",
-  "command": "/usr/bin/g++  -I/home/yupengfei/YuPengFei_v4/server/include -I/home/yupengfei/YuPengFei_v4/server/include/net -I/home/yupengfei/YuPengFei_v4/server/include/threadpool -I/home/yupengfei/YuPengFei_v4/server/../common/include -I/home/yupengfei/YuPengFei_v4/server/../3rd -I/home/yupengfei/YuPengFei_v4/server/../3rd/cppjieba -I/home/yupengfei/YuPengFei_v4/server/../3rd/jsoncpp/json -I/home/yupengfei/YuPengFei_v4/server/../3rd/tinyxml2/tinyxml2 -g -o CMakeFiles/server.dir/source/WordQuery.cpp.o -c /home/yupengfei/YuPengFei_v4/server/source/WordQuery.cpp",
-  "file": "/home/yupengfei/YuPengFei_v4/server/source/WordQuery.cpp"
+  "directory": "/home/yupengfei/YuPengFei_v5/build/prepare",
+  "command": "/usr/bin/c++  -I/home/yupengfei/YuPengFei_v5/prepare/include -I/home/yupengfei/YuPengFei_v5/prepare/../3rd -I/home/yupengfei/YuPengFei_v5/prepare/../3rd/tinyxml2/tinyxml2 -I/home/yupengfei/YuPengFei_v5/prepare/../common/include -Wall  -O0 -Wall -g2 -ggdb -o CMakeFiles/prepare.dir/source/main.cpp.o -c /home/yupengfei/YuPengFei_v5/prepare/source/main.cpp",
+  "file": "/home/yupengfei/YuPengFei_v5/prepare/source/main.cpp"
 },
 {
-  "directory": "/home/yupengfei/YuPengFei_v4/build/server",
-  "command": "/usr/bin/g++  -I/home/yupengfei/YuPengFei_v4/server/include -I/home/yupengfei/YuPengFei_v4/server/include/net -I/home/yupengfei/YuPengFei_v4/server/include/threadpool -I/home/yupengfei/YuPengFei_v4/server/../common/include -I/home/yupengfei/YuPengFei_v4/server/../3rd -I/home/yupengfei/YuPengFei_v4/server/../3rd/cppjieba -I/home/yupengfei/YuPengFei_v4/server/../3rd/jsoncpp/json -I/home/yupengfei/YuPengFei_v4/server/../3rd/tinyxml2/tinyxml2 -g -o CMakeFiles/server.dir/source/main.cpp.o -c /home/yupengfei/YuPengFei_v4/server/source/main.cpp",
-  "file": "/home/yupengfei/YuPengFei_v4/server/source/main.cpp"
+  "directory": "/home/yupengfei/YuPengFei_v5/build/server",
+  "command": "/usr/bin/c++  -I/home/yupengfei/YuPengFei_v5/server/include -I/home/yupengfei/YuPengFei_v5/server/include/net -I/home/yupengfei/YuPengFei_v5/server/include/threadpool -I/home/yupengfei/YuPengFei_v5/server/../common/include -I/home/yupengfei/YuPengFei_v5/server/../3rd -I/home/yupengfei/YuPengFei_v5/server/../3rd/cppjieba -I/home/yupengfei/YuPengFei_v5/server/../3rd/jsoncpp/json -I/home/yupengfei/YuPengFei_v5/server/../3rd/tinyxml2/tinyxml2 -Wall  -O0 -Wall -g2 -ggdb -o CMakeFiles/server.dir/source/WordQuery.cpp.o -c /home/yupengfei/YuPengFei_v5/server/source/WordQuery.cpp",
+  "file": "/home/yupengfei/YuPengFei_v5/server/source/WordQuery.cpp"
 },
 {
-  "directory": "/home/yupengfei/YuPengFei_v4/build/server",
-  "command": "/usr/bin/g++  -I/home/yupengfei/YuPengFei_v4/server/include -I/home/yupengfei/YuPengFei_v4/server/include/net -I/home/yupengfei/YuPengFei_v4/server/include/threadpool -I/home/yupengfei/YuPengFei_v4/server/../common/include -I/home/yupengfei/YuPengFei_v4/server/../3rd -I/home/yupengfei/YuPengFei_v4/server/../3rd/cppjieba -I/home/yupengfei/YuPengFei_v4/server/../3rd/jsoncpp/json -I/home/yupengfei/YuPengFei_v4/server/../3rd/tinyxml2/tinyxml2 -g -o CMakeFiles/server.dir/source/net/Acceptor.cpp.o -c /home/yupengfei/YuPengFei_v4/server/source/net/Acceptor.cpp",
-  "file": "/home/yupengfei/YuPengFei_v4/server/source/net/Acceptor.cpp"
+  "directory": "/home/yupengfei/YuPengFei_v5/build/server",
+  "command": "/usr/bin/c++  -I/home/yupengfei/YuPengFei_v5/server/include -I/home/yupengfei/YuPengFei_v5/server/include/net -I/home/yupengfei/YuPengFei_v5/server/include/threadpool -I/home/yupengfei/YuPengFei_v5/server/../common/include -I/home/yupengfei/YuPengFei_v5/server/../3rd -I/home/yupengfei/YuPengFei_v5/server/../3rd/cppjieba -I/home/yupengfei/YuPengFei_v5/server/../3rd/jsoncpp/json -I/home/yupengfei/YuPengFei_v5/server/../3rd/tinyxml2/tinyxml2 -Wall  -O0 -Wall -g2 -ggdb -o CMakeFiles/server.dir/source/main.cpp.o -c /home/yupengfei/YuPengFei_v5/server/source/main.cpp",
+  "file": "/home/yupengfei/YuPengFei_v5/server/source/main.cpp"
 },
 {
-  "directory": "/home/yupengfei/YuPengFei_v4/build/server",
-  "command": "/usr/bin/g++  -I/home/yupengfei/YuPengFei_v4/server/include -I/home/yupengfei/YuPengFei_v4/server/include/net -I/home/yupengfei/YuPengFei_v4/server/include/threadpool -I/home/yupengfei/YuPengFei_v4/server/../common/include -I/home/yupengfei/YuPengFei_v4/server/../3rd -I/home/yupengfei/YuPengFei_v4/server/../3rd/cppjieba -I/home/yupengfei/YuPengFei_v4/server/../3rd/jsoncpp/json -I/home/yupengfei/YuPengFei_v4/server/../3rd/tinyxml2/tinyxml2 -g -o CMakeFiles/server.dir/source/net/EventLoop.cpp.o -c /home/yupengfei/YuPengFei_v4/server/source/net/EventLoop.cpp",
-  "file": "/home/yupengfei/YuPengFei_v4/server/source/net/EventLoop.cpp"
+  "directory": "/home/yupengfei/YuPengFei_v5/build/server",
+  "command": "/usr/bin/c++  -I/home/yupengfei/YuPengFei_v5/server/include -I/home/yupengfei/YuPengFei_v5/server/include/net -I/home/yupengfei/YuPengFei_v5/server/include/threadpool -I/home/yupengfei/YuPengFei_v5/server/../common/include -I/home/yupengfei/YuPengFei_v5/server/../3rd -I/home/yupengfei/YuPengFei_v5/server/../3rd/cppjieba -I/home/yupengfei/YuPengFei_v5/server/../3rd/jsoncpp/json -I/home/yupengfei/YuPengFei_v5/server/../3rd/tinyxml2/tinyxml2 -Wall  -O0 -Wall -g2 -ggdb -o CMakeFiles/server.dir/source/net/Acceptor.cpp.o -c /home/yupengfei/YuPengFei_v5/server/source/net/Acceptor.cpp",
+  "file": "/home/yupengfei/YuPengFei_v5/server/source/net/Acceptor.cpp"
 },
 {
-  "directory": "/home/yupengfei/YuPengFei_v4/build/server",
-  "command": "/usr/bin/g++  -I/home/yupengfei/YuPengFei_v4/server/include -I/home/yupengfei/YuPengFei_v4/server/include/net -I/home/yupengfei/YuPengFei_v4/server/include/threadpool -I/home/yupengfei/YuPengFei_v4/server/../common/include -I/home/yupengfei/YuPengFei_v4/server/../3rd -I/home/yupengfei/YuPengFei_v4/server/../3rd/cppjieba -I/home/yupengfei/YuPengFei_v4/server/../3rd/jsoncpp/json -I/home/yupengfei/YuPengFei_v4/server/../3rd/tinyxml2/tinyxml2 -g -o CMakeFiles/server.dir/source/net/InetAddress.cpp.o -c /home/yupengfei/YuPengFei_v4/server/source/net/InetAddress.cpp",
-  "file": "/home/yupengfei/YuPengFei_v4/server/source/net/InetAddress.cpp"
+  "directory": "/home/yupengfei/YuPengFei_v5/build/server",
+  "command": "/usr/bin/c++  -I/home/yupengfei/YuPengFei_v5/server/include -I/home/yupengfei/YuPengFei_v5/server/include/net -I/home/yupengfei/YuPengFei_v5/server/include/threadpool -I/home/yupengfei/YuPengFei_v5/server/../common/include -I/home/yupengfei/YuPengFei_v5/server/../3rd -I/home/yupengfei/YuPengFei_v5/server/../3rd/cppjieba -I/home/yupengfei/YuPengFei_v5/server/../3rd/jsoncpp/json -I/home/yupengfei/YuPengFei_v5/server/../3rd/tinyxml2/tinyxml2 -Wall  -O0 -Wall -g2 -ggdb -o CMakeFiles/server.dir/source/net/EventLoop.cpp.o -c /home/yupengfei/YuPengFei_v5/server/source/net/EventLoop.cpp",
+  "file": "/home/yupengfei/YuPengFei_v5/server/source/net/EventLoop.cpp"
 },
 {
-  "directory": "/home/yupengfei/YuPengFei_v4/build/server",
-  "command": "/usr/bin/g++  -I/home/yupengfei/YuPengFei_v4/server/include -I/home/yupengfei/YuPengFei_v4/server/include/net -I/home/yupengfei/YuPengFei_v4/server/include/threadpool -I/home/yupengfei/YuPengFei_v4/server/../common/include -I/home/yupengfei/YuPengFei_v4/server/../3rd -I/home/yupengfei/YuPengFei_v4/server/../3rd/cppjieba -I/home/yupengfei/YuPengFei_v4/server/../3rd/jsoncpp/json -I/home/yupengfei/YuPengFei_v4/server/../3rd/tinyxml2/tinyxml2 -g -o CMakeFiles/server.dir/source/net/Socket.cpp.o -c /home/yupengfei/YuPengFei_v4/server/source/net/Socket.cpp",
-  "file": "/home/yupengfei/YuPengFei_v4/server/source/net/Socket.cpp"
+  "directory": "/home/yupengfei/YuPengFei_v5/build/server",
+  "command": "/usr/bin/c++  -I/home/yupengfei/YuPengFei_v5/server/include -I/home/yupengfei/YuPengFei_v5/server/include/net -I/home/yupengfei/YuPengFei_v5/server/include/threadpool -I/home/yupengfei/YuPengFei_v5/server/../common/include -I/home/yupengfei/YuPengFei_v5/server/../3rd -I/home/yupengfei/YuPengFei_v5/server/../3rd/cppjieba -I/home/yupengfei/YuPengFei_v5/server/../3rd/jsoncpp/json -I/home/yupengfei/YuPengFei_v5/server/../3rd/tinyxml2/tinyxml2 -Wall  -O0 -Wall -g2 -ggdb -o CMakeFiles/server.dir/source/net/InetAddress.cpp.o -c /home/yupengfei/YuPengFei_v5/server/source/net/InetAddress.cpp",
+  "file": "/home/yupengfei/YuPengFei_v5/server/source/net/InetAddress.cpp"
 },
 {
-  "directory": "/home/yupengfei/YuPengFei_v4/build/server",
-  "command": "/usr/bin/g++  -I/home/yupengfei/YuPengFei_v4/server/include -I/home/yupengfei/YuPengFei_v4/server/include/net -I/home/yupengfei/YuPengFei_v4/server/include/threadpool -I/home/yupengfei/YuPengFei_v4/server/../common/include -I/home/yupengfei/YuPengFei_v4/server/../3rd -I/home/yupengfei/YuPengFei_v4/server/../3rd/cppjieba -I/home/yupengfei/YuPengFei_v4/server/../3rd/jsoncpp/json -I/home/yupengfei/YuPengFei_v4/server/../3rd/tinyxml2/tinyxml2 -g -o CMakeFiles/server.dir/source/net/SocketIO.cpp.o -c /home/yupengfei/YuPengFei_v4/server/source/net/SocketIO.cpp",
-  "file": "/home/yupengfei/YuPengFei_v4/server/source/net/SocketIO.cpp"
+  "directory": "/home/yupengfei/YuPengFei_v5/build/server",
+  "command": "/usr/bin/c++  -I/home/yupengfei/YuPengFei_v5/server/include -I/home/yupengfei/YuPengFei_v5/server/include/net -I/home/yupengfei/YuPengFei_v5/server/include/threadpool -I/home/yupengfei/YuPengFei_v5/server/../common/include -I/home/yupengfei/YuPengFei_v5/server/../3rd -I/home/yupengfei/YuPengFei_v5/server/../3rd/cppjieba -I/home/yupengfei/YuPengFei_v5/server/../3rd/jsoncpp/json -I/home/yupengfei/YuPengFei_v5/server/../3rd/tinyxml2/tinyxml2 -Wall  -O0 -Wall -g2 -ggdb -o CMakeFiles/server.dir/source/net/Socket.cpp.o -c /home/yupengfei/YuPengFei_v5/server/source/net/Socket.cpp",
+  "file": "/home/yupengfei/YuPengFei_v5/server/source/net/Socket.cpp"
 },
 {
-  "directory": "/home/yupengfei/YuPengFei_v4/build/server",
-  "command": "/usr/bin/g++  -I/home/yupengfei/YuPengFei_v4/server/include -I/home/yupengfei/YuPengFei_v4/server/include/net -I/home/yupengfei/YuPengFei_v4/server/include/threadpool -I/home/yupengfei/YuPengFei_v4/server/../common/include -I/home/yupengfei/YuPengFei_v4/server/../3rd -I/home/yupengfei/YuPengFei_v4/server/../3rd/cppjieba -I/home/yupengfei/YuPengFei_v4/server/../3rd/jsoncpp/json -I/home/yupengfei/YuPengFei_v4/server/../3rd/tinyxml2/tinyxml2 -g -o CMakeFiles/server.dir/source/net/TcpConnection.cpp.o -c /home/yupengfei/YuPengFei_v4/server/source/net/TcpConnection.cpp",
-  "file": "/home/yupengfei/YuPengFei_v4/server/source/net/TcpConnection.cpp"
+  "directory": "/home/yupengfei/YuPengFei_v5/build/server",
+  "command": "/usr/bin/c++  -I/home/yupengfei/YuPengFei_v5/server/include -I/home/yupengfei/YuPengFei_v5/server/include/net -I/home/yupengfei/YuPengFei_v5/server/include/threadpool -I/home/yupengfei/YuPengFei_v5/server/../common/include -I/home/yupengfei/YuPengFei_v5/server/../3rd -I/home/yupengfei/YuPengFei_v5/server/../3rd/cppjieba -I/home/yupengfei/YuPengFei_v5/server/../3rd/jsoncpp/json -I/home/yupengfei/YuPengFei_v5/server/../3rd/tinyxml2/tinyxml2 -Wall  -O0 -Wall -g2 -ggdb -o CMakeFiles/server.dir/source/net/SocketIO.cpp.o -c /home/yupengfei/YuPengFei_v5/server/source/net/SocketIO.cpp",
+  "file": "/home/yupengfei/YuPengFei_v5/server/source/net/SocketIO.cpp"
 },
 {
-  "directory": "/home/yupengfei/YuPengFei_v4/build/server",
-  "command": "/usr/bin/g++  -I/home/yupengfei/YuPengFei_v4/server/include -I/home/yupengfei/YuPengFei_v4/server/include/net -I/home/yupengfei/YuPengFei_v4/server/include/threadpool -I/home/yupengfei/YuPengFei_v4/server/../common/include -I/home/yupengfei/YuPengFei_v4/server/../3rd -I/home/yupengfei/YuPengFei_v4/server/../3rd/cppjieba -I/home/yupengfei/YuPengFei_v4/server/../3rd/jsoncpp/json -I/home/yupengfei/YuPengFei_v4/server/../3rd/tinyxml2/tinyxml2 -g -o CMakeFiles/server.dir/source/net/TcpServer.cpp.o -c /home/yupengfei/YuPengFei_v4/server/source/net/TcpServer.cpp",
-  "file": "/home/yupengfei/YuPengFei_v4/server/source/net/TcpServer.cpp"
+  "directory": "/home/yupengfei/YuPengFei_v5/build/server",
+  "command": "/usr/bin/c++  -I/home/yupengfei/YuPengFei_v5/server/include -I/home/yupengfei/YuPengFei_v5/server/include/net -I/home/yupengfei/YuPengFei_v5/server/include/threadpool -I/home/yupengfei/YuPengFei_v5/server/../common/include -I/home/yupengfei/YuPengFei_v5/server/../3rd -I/home/yupengfei/YuPengFei_v5/server/../3rd/cppjieba -I/home/yupengfei/YuPengFei_v5/server/../3rd/jsoncpp/json -I/home/yupengfei/YuPengFei_v5/server/../3rd/tinyxml2/tinyxml2 -Wall  -O0 -Wall -g2 -ggdb -o CMakeFiles/server.dir/source/net/TcpConnection.cpp.o -c /home/yupengfei/YuPengFei_v5/server/source/net/TcpConnection.cpp",
+  "file": "/home/yupengfei/YuPengFei_v5/server/source/net/TcpConnection.cpp"
 },
 {
-  "directory": "/home/yupengfei/YuPengFei_v4/build/server",
-  "command": "/usr/bin/g++  -I/home/yupengfei/YuPengFei_v4/server/include -I/home/yupengfei/YuPengFei_v4/server/include/net -I/home/yupengfei/YuPengFei_v4/server/include/threadpool -I/home/yupengfei/YuPengFei_v4/server/../common/include -I/home/yupengfei/YuPengFei_v4/server/../3rd -I/home/yupengfei/YuPengFei_v4/server/../3rd/cppjieba -I/home/yupengfei/YuPengFei_v4/server/../3rd/jsoncpp/json -I/home/yupengfei/YuPengFei_v4/server/../3rd/tinyxml2/tinyxml2 -g -o CMakeFiles/server.dir/source/threadpool/TaskQueue.cpp.o -c /home/yupengfei/YuPengFei_v4/server/source/threadpool/TaskQueue.cpp",
-  "file": "/home/yupengfei/YuPengFei_v4/server/source/threadpool/TaskQueue.cpp"
+  "directory": "/home/yupengfei/YuPengFei_v5/build/server",
+  "command": "/usr/bin/c++  -I/home/yupengfei/YuPengFei_v5/server/include -I/home/yupengfei/YuPengFei_v5/server/include/net -I/home/yupengfei/YuPengFei_v5/server/include/threadpool -I/home/yupengfei/YuPengFei_v5/server/../common/include -I/home/yupengfei/YuPengFei_v5/server/../3rd -I/home/yupengfei/YuPengFei_v5/server/../3rd/cppjieba -I/home/yupengfei/YuPengFei_v5/server/../3rd/jsoncpp/json -I/home/yupengfei/YuPengFei_v5/server/../3rd/tinyxml2/tinyxml2 -Wall  -O0 -Wall -g2 -ggdb -o CMakeFiles/server.dir/source/net/TcpServer.cpp.o -c /home/yupengfei/YuPengFei_v5/server/source/net/TcpServer.cpp",
+  "file": "/home/yupengfei/YuPengFei_v5/server/source/net/TcpServer.cpp"
 },
 {
-  "directory": "/home/yupengfei/YuPengFei_v4/build/server",
-  "command": "/usr/bin/g++  -I/home/yupengfei/YuPengFei_v4/server/include -I/home/yupengfei/YuPengFei_v4/server/include/net -I/home/yupengfei/YuPengFei_v4/server/include/threadpool -I/home/yupengfei/YuPengFei_v4/server/../common/include -I/home/yupengfei/YuPengFei_v4/server/../3rd -I/home/yupengfei/YuPengFei_v4/server/../3rd/cppjieba -I/home/yupengfei/YuPengFei_v4/server/../3rd/jsoncpp/json -I/home/yupengfei/YuPengFei_v4/server/../3rd/tinyxml2/tinyxml2 -g -o CMakeFiles/server.dir/source/threadpool/Thread.cpp.o -c /home/yupengfei/YuPengFei_v4/server/source/threadpool/Thread.cpp",
-  "file": "/home/yupengfei/YuPengFei_v4/server/source/threadpool/Thread.cpp"
+  "directory": "/home/yupengfei/YuPengFei_v5/build/server",
+  "command": "/usr/bin/c++  -I/home/yupengfei/YuPengFei_v5/server/include -I/home/yupengfei/YuPengFei_v5/server/include/net -I/home/yupengfei/YuPengFei_v5/server/include/threadpool -I/home/yupengfei/YuPengFei_v5/server/../common/include -I/home/yupengfei/YuPengFei_v5/server/../3rd -I/home/yupengfei/YuPengFei_v5/server/../3rd/cppjieba -I/home/yupengfei/YuPengFei_v5/server/../3rd/jsoncpp/json -I/home/yupengfei/YuPengFei_v5/server/../3rd/tinyxml2/tinyxml2 -Wall  -O0 -Wall -g2 -ggdb -o CMakeFiles/server.dir/source/threadpool/TaskQueue.cpp.o -c /home/yupengfei/YuPengFei_v5/server/source/threadpool/TaskQueue.cpp",
+  "file": "/home/yupengfei/YuPengFei_v5/server/source/threadpool/TaskQueue.cpp"
 },
 {
-  "directory": "/home/yupengfei/YuPengFei_v4/build/server",
-  "command": "/usr/bin/g++  -I/home/yupengfei/YuPengFei_v4/server/include -I/home/yupengfei/YuPengFei_v4/server/include/net -I/home/yupengfei/YuPengFei_v4/server/include/threadpool -I/home/yupengfei/YuPengFei_v4/server/../common/include -I/home/yupengfei/YuPengFei_v4/server/../3rd -I/home/yupengfei/YuPengFei_v4/server/../3rd/cppjieba -I/home/yupengfei/YuPengFei_v4/server/../3rd/jsoncpp/json -I/home/yupengfei/YuPengFei_v4/server/../3rd/tinyxml2/tinyxml2 -g -o CMakeFiles/server.dir/source/threadpool/Threadpool.cpp.o -c /home/yupengfei/YuPengFei_v4/server/source/threadpool/Threadpool.cpp",
-  "file": "/home/yupengfei/YuPengFei_v4/server/source/threadpool/Threadpool.cpp"
+  "directory": "/home/yupengfei/YuPengFei_v5/build/server",
+  "command": "/usr/bin/c++  -I/home/yupengfei/YuPengFei_v5/server/include -I/home/yupengfei/YuPengFei_v5/server/include/net -I/home/yupengfei/YuPengFei_v5/server/include/threadpool -I/home/yupengfei/YuPengFei_v5/server/../common/include -I/home/yupengfei/YuPengFei_v5/server/../3rd -I/home/yupengfei/YuPengFei_v5/server/../3rd/cppjieba -I/home/yupengfei/YuPengFei_v5/server/../3rd/jsoncpp/json -I/home/yupengfei/YuPengFei_v5/server/../3rd/tinyxml2/tinyxml2 -Wall  -O0 -Wall -g2 -ggdb -o CMakeFiles/server.dir/source/threadpool/Thread.cpp.o -c /home/yupengfei/YuPengFei_v5/server/source/threadpool/Thread.cpp",
+  "file": "/home/yupengfei/YuPengFei_v5/server/source/threadpool/Thread.cpp"
 },
 {
-  "directory": "/home/yupengfei/YuPengFei_v4/build/client",
-  "command": "/usr/bin/g++  -I/home/yupengfei/YuPengFei_v4/client/include -I/home/yupengfei/YuPengFei_v4/client/../common/include -I/home/yupengfei/YuPengFei_v4/client/../3rd -I/home/yupengfei/YuPengFei_v4/client/../3rd/cppjieba -I/home/yupengfei/YuPengFei_v4/client/../3rd/jsoncpp/json -I/home/yupengfei/YuPengFei_v4/client/../3rd/tinyxml2/tinyxml2 -g -o CMakeFiles/client.dir/source/client.cpp.o -c /home/yupengfei/YuPengFei_v4/client/source/client.cpp",
-  "file": "/home/yupengfei/YuPengFei_v4/client/source/client.cpp"
+  "directory": "/home/yupengfei/YuPengFei_v5/build/server",
+  "command": "/usr/bin/c++  -I/home/yupengfei/YuPengFei_v5/server/include -I/home/yupengfei/YuPengFei_v5/server/include/net -I/home/yupengfei/YuPengFei_v5/server/include/threadpool -I/home/yupengfei/YuPengFei_v5/server/../common/include -I/home/yupengfei/YuPengFei_v5/server/../3rd -I/home/yupengfei/YuPengFei_v5/server/../3rd/cppjieba -I/home/yupengfei/YuPengFei_v5/server/../3rd/jsoncpp/json -I/home/yupengfei/YuPengFei_v5/server/../3rd/tinyxml2/tinyxml2 -Wall  -O0 -Wall -g2 -ggdb -o CMakeFiles/server.dir/source/threadpool/Threadpool.cpp.o -c /home/yupengfei/YuPengFei_v5/server/source/threadpool/Threadpool.cpp",
+  "file": "/home/yupengfei/YuPengFei_v5/server/source/threadpool/Threadpool.cpp"
+},
+{
+  "directory": "/home/yupengfei/YuPengFei_v5/build/client",
+  "command": "/usr/bin/c++  -I/home/yupengfei/YuPengFei_v5/client/include -I/home/yupengfei/YuPengFei_v5/client/../common/include -I/home/yupengfei/YuPengFei_v5/client/../3rd -I/home/yupengfei/YuPengFei_v5/client/../3rd/cppjieba -I/home/yupengfei/YuPengFei_v5/client/../3rd/jsoncpp/json -I/home/yupengfei/YuPengFei_v5/client/../3rd/tinyxml2/tinyxml2 -Wall  -O0 -Wall -g2 -ggdb -o CMakeFiles/client.dir/source/client.cpp.o -c /home/yupengfei/YuPengFei_v5/client/source/client.cpp",
+  "file": "/home/yupengfei/YuPengFei_v5/client/source/client.cpp"
 }
 ]

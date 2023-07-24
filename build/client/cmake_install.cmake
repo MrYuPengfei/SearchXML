@@ -1,4 +1,4 @@
-# Install script for directory: /home/yupengfei/YuPengFei_v4/client
+# Install script for directory: /home/yupengfei/YuPengFei_v5/client
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

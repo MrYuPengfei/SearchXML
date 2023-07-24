@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yupengfei/YuPengFei_v4
+CMAKE_SOURCE_DIR = /home/yupengfei/YuPengFei_v5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yupengfei/YuPengFei_v4/build
+CMAKE_BINARY_DIR = /home/yupengfei/YuPengFei_v5/build
 
 # Include any dependencies generated for this target.
 include common/CMakeFiles/common.dir/depend.make
@@ -72,55 +72,71 @@ include common/CMakeFiles/common.dir/flags.make
 common/CMakeFiles/common.dir/source/Configuration.cpp.o: common/CMakeFiles/common.dir/flags.make
 common/CMakeFiles/common.dir/source/Configuration.cpp.o: ../common/source/Configuration.cpp
 common/CMakeFiles/common.dir/source/Configuration.cpp.o: common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yupengfei/YuPengFei_v4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object common/CMakeFiles/common.dir/source/Configuration.cpp.o"
-	cd /home/yupengfei/YuPengFei_v4/build/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/source/Configuration.cpp.o -MF CMakeFiles/common.dir/source/Configuration.cpp.o.d -o CMakeFiles/common.dir/source/Configuration.cpp.o -c /home/yupengfei/YuPengFei_v4/common/source/Configuration.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yupengfei/YuPengFei_v5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object common/CMakeFiles/common.dir/source/Configuration.cpp.o"
+	cd /home/yupengfei/YuPengFei_v5/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/source/Configuration.cpp.o -MF CMakeFiles/common.dir/source/Configuration.cpp.o.d -o CMakeFiles/common.dir/source/Configuration.cpp.o -c /home/yupengfei/YuPengFei_v5/common/source/Configuration.cpp
 
 common/CMakeFiles/common.dir/source/Configuration.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/source/Configuration.cpp.i"
-	cd /home/yupengfei/YuPengFei_v4/build/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yupengfei/YuPengFei_v4/common/source/Configuration.cpp > CMakeFiles/common.dir/source/Configuration.cpp.i
+	cd /home/yupengfei/YuPengFei_v5/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yupengfei/YuPengFei_v5/common/source/Configuration.cpp > CMakeFiles/common.dir/source/Configuration.cpp.i
 
 common/CMakeFiles/common.dir/source/Configuration.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/source/Configuration.cpp.s"
-	cd /home/yupengfei/YuPengFei_v4/build/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yupengfei/YuPengFei_v4/common/source/Configuration.cpp -o CMakeFiles/common.dir/source/Configuration.cpp.s
+	cd /home/yupengfei/YuPengFei_v5/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yupengfei/YuPengFei_v5/common/source/Configuration.cpp -o CMakeFiles/common.dir/source/Configuration.cpp.s
+
+common/CMakeFiles/common.dir/source/UnicodeToUTF8.cpp.o: common/CMakeFiles/common.dir/flags.make
+common/CMakeFiles/common.dir/source/UnicodeToUTF8.cpp.o: ../common/source/UnicodeToUTF8.cpp
+common/CMakeFiles/common.dir/source/UnicodeToUTF8.cpp.o: common/CMakeFiles/common.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yupengfei/YuPengFei_v5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object common/CMakeFiles/common.dir/source/UnicodeToUTF8.cpp.o"
+	cd /home/yupengfei/YuPengFei_v5/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/source/UnicodeToUTF8.cpp.o -MF CMakeFiles/common.dir/source/UnicodeToUTF8.cpp.o.d -o CMakeFiles/common.dir/source/UnicodeToUTF8.cpp.o -c /home/yupengfei/YuPengFei_v5/common/source/UnicodeToUTF8.cpp
+
+common/CMakeFiles/common.dir/source/UnicodeToUTF8.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/source/UnicodeToUTF8.cpp.i"
+	cd /home/yupengfei/YuPengFei_v5/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yupengfei/YuPengFei_v5/common/source/UnicodeToUTF8.cpp > CMakeFiles/common.dir/source/UnicodeToUTF8.cpp.i
+
+common/CMakeFiles/common.dir/source/UnicodeToUTF8.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/source/UnicodeToUTF8.cpp.s"
+	cd /home/yupengfei/YuPengFei_v5/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yupengfei/YuPengFei_v5/common/source/UnicodeToUTF8.cpp -o CMakeFiles/common.dir/source/UnicodeToUTF8.cpp.s
 
 common/CMakeFiles/common.dir/source/WebPage.cpp.o: common/CMakeFiles/common.dir/flags.make
 common/CMakeFiles/common.dir/source/WebPage.cpp.o: ../common/source/WebPage.cpp
 common/CMakeFiles/common.dir/source/WebPage.cpp.o: common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yupengfei/YuPengFei_v4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object common/CMakeFiles/common.dir/source/WebPage.cpp.o"
-	cd /home/yupengfei/YuPengFei_v4/build/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/source/WebPage.cpp.o -MF CMakeFiles/common.dir/source/WebPage.cpp.o.d -o CMakeFiles/common.dir/source/WebPage.cpp.o -c /home/yupengfei/YuPengFei_v4/common/source/WebPage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yupengfei/YuPengFei_v5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object common/CMakeFiles/common.dir/source/WebPage.cpp.o"
+	cd /home/yupengfei/YuPengFei_v5/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/source/WebPage.cpp.o -MF CMakeFiles/common.dir/source/WebPage.cpp.o.d -o CMakeFiles/common.dir/source/WebPage.cpp.o -c /home/yupengfei/YuPengFei_v5/common/source/WebPage.cpp
 
 common/CMakeFiles/common.dir/source/WebPage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/source/WebPage.cpp.i"
-	cd /home/yupengfei/YuPengFei_v4/build/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yupengfei/YuPengFei_v4/common/source/WebPage.cpp > CMakeFiles/common.dir/source/WebPage.cpp.i
+	cd /home/yupengfei/YuPengFei_v5/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yupengfei/YuPengFei_v5/common/source/WebPage.cpp > CMakeFiles/common.dir/source/WebPage.cpp.i
 
 common/CMakeFiles/common.dir/source/WebPage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/source/WebPage.cpp.s"
-	cd /home/yupengfei/YuPengFei_v4/build/common && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yupengfei/YuPengFei_v4/common/source/WebPage.cpp -o CMakeFiles/common.dir/source/WebPage.cpp.s
+	cd /home/yupengfei/YuPengFei_v5/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yupengfei/YuPengFei_v5/common/source/WebPage.cpp -o CMakeFiles/common.dir/source/WebPage.cpp.s
 
 # Object files for target common
 common_OBJECTS = \
 "CMakeFiles/common.dir/source/Configuration.cpp.o" \
+"CMakeFiles/common.dir/source/UnicodeToUTF8.cpp.o" \
 "CMakeFiles/common.dir/source/WebPage.cpp.o"
 
 # External object files for target common
 common_EXTERNAL_OBJECTS =
 
 common/libcommon.so: common/CMakeFiles/common.dir/source/Configuration.cpp.o
+common/libcommon.so: common/CMakeFiles/common.dir/source/UnicodeToUTF8.cpp.o
 common/libcommon.so: common/CMakeFiles/common.dir/source/WebPage.cpp.o
 common/libcommon.so: common/CMakeFiles/common.dir/build.make
 common/libcommon.so: common/CMakeFiles/common.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yupengfei/YuPengFei_v4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libcommon.so"
-	cd /home/yupengfei/YuPengFei_v4/build/common && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/common.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yupengfei/YuPengFei_v5/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libcommon.so"
+	cd /home/yupengfei/YuPengFei_v5/build/common && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/common.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 common/CMakeFiles/common.dir/build: common/libcommon.so
 .PHONY : common/CMakeFiles/common.dir/build
 
 common/CMakeFiles/common.dir/clean:
-	cd /home/yupengfei/YuPengFei_v4/build/common && $(CMAKE_COMMAND) -P CMakeFiles/common.dir/cmake_clean.cmake
+	cd /home/yupengfei/YuPengFei_v5/build/common && $(CMAKE_COMMAND) -P CMakeFiles/common.dir/cmake_clean.cmake
 .PHONY : common/CMakeFiles/common.dir/clean
 
 common/CMakeFiles/common.dir/depend:
-	cd /home/yupengfei/YuPengFei_v4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yupengfei/YuPengFei_v4 /home/yupengfei/YuPengFei_v4/common /home/yupengfei/YuPengFei_v4/build /home/yupengfei/YuPengFei_v4/build/common /home/yupengfei/YuPengFei_v4/build/common/CMakeFiles/common.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yupengfei/YuPengFei_v5/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yupengfei/YuPengFei_v5 /home/yupengfei/YuPengFei_v5/common /home/yupengfei/YuPengFei_v5/build /home/yupengfei/YuPengFei_v5/build/common /home/yupengfei/YuPengFei_v5/build/common/CMakeFiles/common.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : common/CMakeFiles/common.dir/depend
 

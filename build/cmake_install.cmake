@@ -1,4 +1,4 @@
-# Install script for directory: /home/yupengfei/YuPengFei_v4
+# Install script for directory: /home/yupengfei/YuPengFei_v5
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,27 +44,27 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/yupengfei/YuPengFei_v4/build/3rd/cmake_install.cmake")
+  include("/home/yupengfei/YuPengFei_v5/build/3rd/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/yupengfei/YuPengFei_v4/build/common/cmake_install.cmake")
+  include("/home/yupengfei/YuPengFei_v5/build/common/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/yupengfei/YuPengFei_v4/build/prepare/cmake_install.cmake")
+  include("/home/yupengfei/YuPengFei_v5/build/prepare/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/yupengfei/YuPengFei_v4/build/server/cmake_install.cmake")
+  include("/home/yupengfei/YuPengFei_v5/build/server/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/yupengfei/YuPengFei_v4/build/client/cmake_install.cmake")
+  include("/home/yupengfei/YuPengFei_v5/build/client/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -75,5 +75,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/yupengfei/YuPengFei_v4/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/yupengfei/YuPengFei_v5/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
