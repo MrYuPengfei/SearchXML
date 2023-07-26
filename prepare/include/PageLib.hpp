@@ -10,8 +10,11 @@ namespace KONGKONG
 class PageLib
 {
 public:
-    PageLib(DirScanner &,RssReader&);
-    void store(const string&,const string&);  //存储网页库与偏移库  
+    PageLib(DirScanner &dirScanner,RssReader& rssReader)
+        :_dirscanner(dirScanner),_rssReader(rssReader){}
+    void store(const string&pagelib_dir,const string&offsetLib_dir){
+        _rssReader.dump(pagelib_dir,offsetLib_dir,_pagelibs,_offsetLib);
+    }//存储网页库与偏移库  
 
 private:
     DirScanner &_dirscanner;

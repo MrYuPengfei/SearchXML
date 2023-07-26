@@ -14,8 +14,7 @@ class DirScanner
 {
 public:
     DirScanner(const string &dir);
-    vector<string>& get_absolute_file();
-
+    const vector<string>& get_absolute_file()const;
 private:
     void traverse();   //获取语料库目录下的所有语料文件
 private:

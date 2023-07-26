@@ -1,6 +1,3 @@
-// @file        : server.cpp
-// @namespace   : KONGKONG
-// @date        : 2022-05-17 06:02:36
 #include "net/TcpServer.h"
 #include "threadpool/Threadpool.h"
 #include "WordQuery.hpp"

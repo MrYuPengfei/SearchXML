@@ -1,5 +1,5 @@
 #include "client.h"
-using namespace std;
+// using namespace std;
 int main()
 {
     int sockfd = socket(AF_INET, SOCK_STREAM, 0);if (sockfd == -1){perror("socket");exit(errno);}
@@ -23,9 +23,12 @@ int main()
             bzero(buf, sizeof(buf));
             read(0, buf, sizeof(buf));
             send(sockfd, buf, strlen(buf)-1, 0);
+            
             bzero(buf, sizeof(buf));
             recv(sockfd, buf, sizeof(buf), 0);
-            cout<<UnicodeToUTF8(buf)<<endl;
+            write(STDOUT_FILENO,buf,strlen(buf));
+            // cout<<buf<<endl;
+            // cout<<UnicodeToUTF8(buf)<<endl;
         }
     }
     close(sockfd);
