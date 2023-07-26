@@ -54,8 +54,9 @@ class LocalVector {
     clear();
     size_ = vec.size();
     capacity_ = vec.capacity();
+    bzero(this->buffer_,sizeof(this->buffer_));
     if(vec.buffer_ == vec.ptr_) {
-      memcpy(buffer_, vec.buffer_, sizeof(T) * size_);
+      memcpy(buffer_, (const void*)vec.buffer_, (size_t)sizeof(T) * size_);
       ptr_ = buffer_;
     } else {
       ptr_ = (T*) malloc(vec.capacity() * sizeof(T));

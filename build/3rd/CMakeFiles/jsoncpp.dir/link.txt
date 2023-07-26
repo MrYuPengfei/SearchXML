@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -Wall  -O0 -Wall -g2 -ggdb -shared -Wl,-soname,libjsoncpp.so -o libjsoncpp.so CMakeFiles/jsoncpp.dir/jsoncpp/jsoncpp.cpp.o 

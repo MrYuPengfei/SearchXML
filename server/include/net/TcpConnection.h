@@ -19,7 +19,7 @@ namespace KONGKONG
     using TcpConnectionCallBack = function<void(const TcpConnectionPtr&)>;
 
     class TcpConnection
-    :Noncopyable
+    :privat Noncopyable
     ,public std::enable_shared_from_this<TcpConnection>
     {
     public:
