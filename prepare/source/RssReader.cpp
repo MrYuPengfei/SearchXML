@@ -70,12 +70,7 @@ namespace KONGKONG
     void RssReader::dump(const string &ripePage_dir, const string &offset_dir, vector<string> &pageLibs, map<int, pair<int, int>> &offsetLib)
     {
         ofstream ofs1(ripePage_dir, ofstream::out);
-        if (!ofs1)
-        {
-            cout << __FILE__ << ":" << __FUNCTION__ << ":" << __LINE__ << " ripePage_dir open ERROR!" << endl;
-            exit(-1);
-        }
-
+        if (!ofs1){cout <<" ripePage_dir open ERROR!" << endl;exit(-1); }
         for (size_t i = 0; i < _rss.size(); i++)
         {
             stringstream ss;
