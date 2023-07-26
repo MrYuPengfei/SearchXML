@@ -1,5 +1,6 @@
-project(common )
+project(common)
 include_directories(include)
 include_directories(../3rd)
 aux_source_directory(source DIR_SRCS)
+message(${DIR_SRCS})
 add_library(common SHARED ${DIR_SRCS})
