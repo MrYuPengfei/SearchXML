@@ -1,34 +1,8 @@
-// @file        : RssReader.hpp
-// @namespace   : KONGKONG
-// @date        : 2022-05-17 06:23:30
-// description : 
 #ifndef __RSSREADER_H__
 #define __RSSREADER_H__
-#include "tinyxml2.hpp"
-#include <iostream>
-#include <vector>
-#include <string>
-#include <string.h>
-#include <regex>
-#include <fstream>
-#include <sstream>
-#include <map>
-using std::cout;
-using std::endl;
-using std::map;
-using std::ofstream;
-using std::regex;
-using std::regex_replace;
-using std::string;
-using std::stringstream;
-using std::vector;
-using std::pair;
-using namespace tinyxml2;
-
-
+#include "prepair.hpp"
 namespace KONGKONG
 {
-
     struct RssItem
     {
         string title;

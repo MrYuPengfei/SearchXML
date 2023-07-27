@@ -1,9 +1,6 @@
 #ifndef __PAGELIB_HPP__
 #define __PAGELIB_HPP__
-#include "Configuration.hpp"
-#include "DirScanner.hpp"
-#include "RssReader.hpp"
-using namespace std;
+#include "prepair.hpp"
 
 namespace KONGKONG
 {

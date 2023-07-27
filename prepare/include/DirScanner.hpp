@@ -4,10 +4,8 @@
 // description : 
 #ifndef __DIRSCANNER_HPP__
 #define __DIRSCANNER_HPP__
-#include <string>
-#include <vector>
-using std::vector;
-using std::string;
+#include "prepair.hpp"
+
 namespace KONGKONG
 {
 class DirScanner
